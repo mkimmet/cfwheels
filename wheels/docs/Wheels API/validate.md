@@ -79,6 +79,6 @@ Registers method(s) that should be called to validate objects before they are sa
 			<!--- If the `this.Techselections` array is empty add an error asking the user to select at least one techology --->
 	   		<cfif arrayIsEmpty(this.Techselections)>
 	         		<cfset addError(property="Techselections", message="Please select at least one technology.")>
-	     		</cfif>
-       		</cffunction>
+	     	</cfif>
+       	</cffunction>
 		
